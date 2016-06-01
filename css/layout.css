@@ -1,6 +1,33 @@
 body{	
 	padding-top: 70px;
 }
+
 #LogoUPhotos{
 	max-width: 400px;
+}
+
+#mediaPic{
+	max-width: 150px;
+}
+
+.projectsInfo{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.projectDesc{
+	font-size: 18px;
+}
+
+.media-body{
+	padding-left: 10px;
+}
+
+.btn-success,
+.btn-success:hover,
+.btn-success:active,
+.btn-success:visited,
+.btn-success:focus {
+    background-color: #a3bd64;
+    border-color: #8064A2;
 }
