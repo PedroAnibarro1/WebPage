@@ -7,8 +7,8 @@ body{
 	max-width: 400px;
 }
 
-#mediaPic{
-	max-width: 150px;
+.media-object{
+	max-width: 200px;
 }
 
 .projectsInfo{
@@ -31,5 +31,9 @@ body{
 .btn-success:visited,
 .btn-success:focus {
     background-color: #a3bd64;
-    border-color: #8064A2;
+    border-color: #000;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
 }
