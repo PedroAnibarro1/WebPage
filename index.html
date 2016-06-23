@@ -15,7 +15,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link href="css/layout.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
 
     </head>
 
@@ -36,8 +36,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#">Projects</a></li>  
-            <!-- <li><a href="#">About Me</a></li> -->
+            <li class="active"><a href="#">Projects</a></li>  
+             <li><a href="#" data-toggle="modal" data-target="#AboutMe">About Me</a></li> 
           </ul>
           
         </div><!-- /.navbar-collapse -->
@@ -141,27 +141,58 @@
 
                     <div class="col-lg-6 col-md-12">
                         
-                        <div class="projectDesc">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#UPhotosDesc" aria-controls="UPhotosDesc" role="tab" data-toggle="tab">Description</a></li>
+                            <li role="presentation"><a href="#UPhotosTeam" aria-controls="UPhotosTeam" role="tab" data-toggle="tab">Team</a></li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            
+                            <div role="tabpanel" class="tab-pane fade in active projectDesc" id="UPhotosDesc">
+                                
+                                <p>
+                                    Are you tired of mixing your personal photos with photos of notebook pages, assignments, or white boards? 
+
+                                    U Photos let you organize your photos by courses in an easy and transparent way. No more time wasted erasing your college photos at the end of the semester.
+
+                                    <br><br>
+
+                                    Features:
+                                    <ul>
+                                        <li>Take photos with built in camera</li>
+                                        <li>Organize your photos into courses</li>
+                                        <li>Import photos from iOS library</li>
+                                    </ul>
                                     
-                            <p>
-                                Are you tired of mixing your personal photos with photos of notebook pages, assignments, or white boards? 
+                                    <br>
+                                    <div class="text-center">
+                                        
+                                        <a href="https://itunes.apple.com/us/app/u-photos-college-photo-manager/id1118525745?mt=8"><img src="images/AppStoreLogo.svg" alt="App Store Link"></a>
+                                        
+                                    </div>
 
-                                U Photos let you organize your photos by courses in an easy and transparent way. No more time wasted erasing your college photos at the end of the semester.
-
-                                <br><br>
-
-                                Features:
-                                <ul>
-                                    <li>Take photos with built in camera</li>
-                                    <li>Organize your photos into courses</li>
-                                    <li>Import photos from iOS library</li>
-                                </ul>
-
-                            </p>
-
-                        </div>
-
-                    </div>
+                                </p>
+                                
+                            </div>
+                            
+                            <div role="tabpanel" class="tab-pane fade in projectDesc" id="UPhotosTeam">
+                                
+                                <!--Pedro Anibarro-->
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                            
+                                    <a href="#" data-toggle="modal" data-target="#AboutMe">                                    
+                                        <img src="images/Hackers/Pedro Anibarro 1.jpg" alt="Logo" class="img-circle img-responsive center-block">
+                                        <h1 style="color: #a3bd64">Pedro Anibarro</h1>
+                                        <h3>iOS Developer</h3>                             
+                                    </a>   
+                                    
+                                </div>                                                                
+                                                                    
+                            </div>
+                            
+                        </div>                     
 
                 </div>
                 <!-- /.row -->
@@ -200,7 +231,8 @@
 
                             <!-- Tab panes -->
                             <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane active projectDesc" id="YYCDesx">
+                                
+                                <div role="tabpanel" class="tab-pane fade in active projectDesc" id="YYCDesc">
                                     
                                     <p>
                                         Yes You Can! - Meal Reminders helps you focus on keeping your metabolism running by reminding you when to eat. 
@@ -216,11 +248,42 @@
                                             <li>Reminds you when its time to eat with notifications</li>
                                             <li>Cooming soon: Apple Watch Support!</li>
                                         </ul>
-
+                                        
+                                        <br>
+                                        <div class="text-center">
+                                            
+                                            <a href="https://itunes.apple.com/us/app/yes-you-can!-meal-reminders/id1122768779?mt=8"><img src="images/AppStoreLogo.svg" alt="App Store Link"></a>
+                                            
+                                        </div>
+                                        
                                     </p>
                                     
                                 </div>
-                                <div role="tabpanel" class="tab-pane" id="YYCTeam">Hello World!</div>
+                                
+                                <div role="tabpanel" class="tab-pane fade in projectDesc" id="YYCTeam">
+                                    
+                                    <!--Pedro Anibarro-->
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                             
+                                        <a href="#" data-toggle="modal" data-target="#AboutMe">                                    
+                                            <img src="images/Hackers/Pedro Anibarro 1.jpg" alt="Logo" class="img-circle img-responsive center-block">
+                                            <h1 style="color: #a3bd64">Pedro Anibarro</h1>
+                                            <h3>iOS Developer</h3>                             
+                                        </a>                    
+                                                            
+                                    </div>
+                                    
+                                    <!--Kriziani de Jesús-->
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                                                    
+                                        <img src="images/Hackers/Kriziani de Jesús.jpg" alt="Logo" class="img-circle img-responsive center-block">
+                                        <h1 style="color: #a3bd64">Kriziani de Jesús</h1>
+                                        <h3>Logo Designer</h3>
+                                                                      
+                                    </div>
+                                                                        
+                                </div>
+                                
                             </div>
 
                         </div>
@@ -235,6 +298,55 @@
 
         </div>
         <!-- /.container -->
+        
+        
+        <!-- Modal -->
+        <div class="modal fade" id="AboutMe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h1 class="modal-title" id="myModalLabel">About Me</h1>
+                    </div>
+                    <div class="modal-body">
+                                                
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object img-responsive img-circle" src="images/Hackers/Pedro Anibarro 2.png" alt="Image">
+                            </a>
+                            <div class="media-body">
+                                <p>
+                                    
+                                    Computer Engineering student from 🇵🇷 Puerto Rico. 
+                                    Proud of being a Taíno from Universidad del Turabo. 
+                                    Co-founder of <a href="http://www.hackturabo.com"><span style="font-weight: bold;">Hack<span style="color: #F5842B; font-weight: bold;">Turabo</span></span></a>.
+                                    Just scratching the suface of living my dreams as an entrepreneur.
+                                    <br><br>
+                                    Follow me: <br>
+                                    
+                                    <div id="socialMedia">
+                                        
+                                        <ul>
+                                            <li><a href="https://www.twitter.com/PedroAnibarro"><img src="images/Social Media Icons/twitter.png" alt="Twitter"> PedroAnibarro</a></li>
+                                            <li><a href="https://www.github.com/PedroAnibarro1"><img src="images/Social Media Icons/github.png" alt="GitHub"> PedroAnibarro1</a></li>
+                                            <li><a href="https://pr.linkedin.com/in/pedro-anibarro-584646a5"><img src="images/Social Media Icons/linkedin.png" alt="LinkedIn"> Pedro Anibarro</a></li>
+                                            <li><a href="mailto:pedroanibarro3@gmail.com"><img src="images/Social Media Icons/email.png" alt="Email"> Contact Me</a></li>
+                                        </ul>                                  
+                                        
+                                    </div>
+                                    
+                                    
+                                    
+                                </p>
+                            </div>
+                        </div>                                                
+                        
+                    </div>                
+                </div>
+            </div>
+        </div>
+        
+        
 
         <!-- jQuery Version 1.11.1 -->
         <script src="js/jquery.js"></script>

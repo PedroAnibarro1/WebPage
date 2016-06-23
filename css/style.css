@@ -25,6 +25,19 @@ body{
 	padding-left: 10px;
 }
 
+#socialMedia{
+	font-size: 18px;
+}
+
+#socialMedia li{
+	margin-top: 10px;
+}
+
+#socialMedia img{
+	max-width: 35px;
+}
+
+
 .btn-success,
 .btn-success:hover,
 .btn-success:active,
@@ -37,3 +50,9 @@ body{
 .carousel-control.left, .carousel-control.right {
     background-image: none
 }
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+	color: inherit;
+}
+
