@@ -38,6 +38,11 @@ body{
 	max-width: 35px;
 }
 
+.title {
+	color: #489BD5;
+	font-size: 70px;
+}
+
 
 .btn-success,
 .btn-success:hover,
